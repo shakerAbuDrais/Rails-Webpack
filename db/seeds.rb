@@ -14,4 +14,4 @@ greetings = [
   "Good to see you!"
 ]
 
-greetings.each { |greeting| Message.create(content: greeting) }
+greetings.each { |greeting| Message.create(greeting: greeting) }
